@@ -1,5 +1,12 @@
 ### Permission Guard
-Dead simple, zero dependency nodejs permission manager. Permissions are string based and can be split into nodes with a `dot` separator. Wildcards can be applied to each permission node.
+Dead simple, zero dependency nodejs permission manager.
+
+Permissions are string based and can be split into nodes with a `dot` separator. Wildcards can be applied to each permission node.
+
+### Installation
+```nodejs
+npm i @sindres/guard
+```
 
 ### Example usage
 ```javascript
